@@ -516,7 +516,7 @@ html, * {
 		float: left;
 		margin-top: 13px;
 		margin-left: 0;
-		margin-right: 2px;
+		margin-right: 5px;
 		padding: 4px;
 		font-size: 12px;
 	}
@@ -524,7 +524,7 @@ html, * {
 	.fixed2 h1 {
 		float: right;
 		font-size: 18px;
-		margin: 0;
+		margin-right: 0;
 		margin-top: 10px;
 	}
 
@@ -549,7 +549,7 @@ html, * {
 	}
 
 	.inti {
-		width: 360px;
+		width: 350px;
 		height: auto;
 		box-sizing: border-box;
 	}
