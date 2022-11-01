@@ -541,7 +541,7 @@ html, * {
 	}
 
 	.inti {
-		width: 350px;
+		width: 390px;
 		height: auto;
 		box-sizing: border-box;
 	}
@@ -551,7 +551,7 @@ html, * {
 	}
 
 	.kotak1 {
-		width: 350px;
+		width: 330px;
 		height: 250px;
 		margin-left: 10px;
 		background-size: cover;
