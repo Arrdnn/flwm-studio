@@ -7,9 +7,10 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    /* background-color: yellow; */
 }
 
-.pic {
+.container .pic {
     height: 100vh;
     background-image: url(Desain\ tanpa\ judul\ \(1\).png);
     background-position: center;
@@ -18,22 +19,28 @@
     flex: 3;
 }
 
-.pic h1 {
+.container .pic h1 {
     margin: auto;
     font-size: 10vmin;
 }
 
-.txt {
+.container .txt {
     flex: 2;
     height: 100vh;
     box-sizing: border-box;
     display: flex;
 }
 
-.txt p {
+.container .txt p {
     font-size: 1.2rem;
     margin: auto;
     padding: 1em;
+    /* background-color: yellow;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px; */
 }
 
 .bag {
@@ -103,6 +110,7 @@
 }
 
 .menu .txt p {
+    padding: 1em;
     font-size: 1rem;
 }
 
@@ -123,31 +131,35 @@
     color: blue;
 } */
 
-/* .parallax {
+.parallax {
 	width: 100vw;
 	height: 100vh;
 	background-image: url(l.png);
 	background-size: cover;
 	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 	box-sizing: border-box;
+    display: flex;
 }
 
 .king {
-	height: 80vh;
-	box-sizing: border-box;
+	margin: auto;
+    background-color: yellow;
+    position: relative;
+    opacity: .7;
 }
 
-.co {
-	height: 20vh;
+.king img {
+    width: 100px;
 }
 
-.co img {
-	height: 60vh;
+.king h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
 }
-
-.ex {
-	height: 20vh;
-} */
 
 .content {
     width: 100vw;
@@ -189,6 +201,9 @@
     .container .pic {
         width: 100vw;
         height: 60vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .container .txt {
@@ -221,7 +236,7 @@
     }
 
     .menu {
-        margin: 0;
+        margin-top: 1em;
         /* background-color: yellow; */
         /* width: 20vw; */
         height: 24vh;
@@ -231,4 +246,8 @@
     .menu .txt p {
         font-size: .6rem;
     }
+
+    /* .king img {
+        width: 30vw;
+    } */
 }
