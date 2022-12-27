@@ -20,7 +20,7 @@ div {
 
 .content {
     margin: 0 2em 0 2em;
-    width: 100vw;
+    width: 95vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +82,7 @@ div {
 }
 
 .img img {
-    width: 40vw;
+    width: 45vw;
 }
 
 .isi {
@@ -99,7 +99,28 @@ div {
 }
 
 @media screen and (max-width: 650px) {
+    .navbar {
+        width: 100vw;
+    }
+
+    .content {
+        margin: 0 1em 0 1em;
+    }
+
+    .content .flwm {
+        font-size: 2rem;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content a {
+        font-size: 30px;
+    }
+
     .flex {
+        width: 95vw;
         display: block;
         font-size: 1em;
     }
@@ -115,5 +136,13 @@ div {
 
     .isi p {
         font-size: 1em;
+    }
+
+    .combine {
+        display: block;
+    }
+
+    .img img {
+        width: 70vw;
     }
 }
