@@ -119,7 +119,7 @@ div {
 
 .compose {
     width: 85vw;
-    height: 100vh;
+    height: auto;
     margin: 4em auto;
     overflow-y: hidden;
     overflow-x: scroll;
@@ -201,7 +201,6 @@ div {
 
     .compose {
         width: 90vw;
-        height: 50vh;
     }
 
     .over img {
