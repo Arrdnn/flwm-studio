@@ -55,6 +55,20 @@ div {
     margin: 0 .5em 0 .5em;
 }
 
+.ig {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    font-weight: bold;
+    /* background-color: yellow; */
+}
+
+.ig img {
+    height: 5vh;
+    margin-right: .5em;
+}
+
 .ini {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
@@ -67,7 +81,12 @@ div {
     margin: 0 .5em 0 .5em;
 }
 
+.flex2 h1 {
+    font-size: 1.5em;
+}
+
 .combine {
+    margin: 4em 0;
     width: 95vw;
     display: flex;
     align-items: center;
@@ -128,6 +147,10 @@ div {
     .flex1,
     .flex2 {
         margin: 1em;
+    }
+
+    .ig img {
+        height: 3vh;
     }
 
     .isi h1 {
