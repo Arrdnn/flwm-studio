@@ -125,6 +125,10 @@ div {
     overflow-x: scroll;
 }
 
+.compose::-webkit-scrollbar {
+    display: none;
+}
+
 .over {
     display: flex;
 }
@@ -197,5 +201,10 @@ div {
 
     .compose {
         width: 90vw;
+        height: 50vh;
+    }
+
+    .over img {
+        height: 40vh;
     }
 }
