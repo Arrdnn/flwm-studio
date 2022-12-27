@@ -117,10 +117,24 @@ div {
     font-size: 1.5em;
 }
 
+.compose {
+    width: 85vw;
+    height: 100vh;
+    margin: 4em auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.over {
+    display: flex;
+}
+
+.over img {
+    height: 90vh;
+    margin: 0 1em;
+}
+
 @media screen and (max-width: 650px) {
-    .navbar {
-        width: 100vw;
-    }
 
     .content {
         margin: 0 1em 0 1em;
@@ -174,6 +188,14 @@ div {
     }
 
     .img img {
+        width: 90vw;
+    }
+
+    .isi {
+        margin: 1em 0;
+    }
+
+    .compose {
         width: 90vw;
     }
 }
