@@ -1,253 +1,119 @@
-*, html, body {
+html, body, * {
     margin: 0;
     padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+div {
     /* background-color: yellow; */
 }
 
-.container .pic {
-    height: 100vh;
-    background-image: url(Desain\ tanpa\ judul\ \(1\).png);
-    background-position: center;
-    background-size: cover;
+.navbar {
+    margin: 4px auto;
+    width: 95vw;
+    height: 10vh;
     display: flex;
-    flex: 3;
-}
-
-.container .pic h1 {
-    margin: auto;
-    font-size: 10vmin;
-}
-
-.container .txt {
-    flex: 2;
-    height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-}
-
-.container .txt p {
-    font-size: 1.2rem;
-    margin: auto;
-    padding: 1em;
-    /* background-color: yellow;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px; */
-}
-
-.bag {
-    width: 80vw;
-    height: 60vh;
-    margin: auto;
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.menu {
-    height: auto;
-    /* background-color: yellow; */
-    /* padding: 6px; */
-    margin: 5px;
+    /* background-color: aqua; */
     box-sizing: border-box;
-}
-
-.menu:hover {
-	transform: scale(1.2, 1.5);
-	-webkit-transform: scale(1.2, 1.5);
-	-moz-transform: scale(1.2, 1.5);
-	-ms-transform: scale(1.2, 1.5);
-	-o-transform: scale(1.2, 1.5);
-	border: 3px solid salmon;
-	transition: .5s ease-in-out;
-	-webkit-transition: .5s ease-in-out;
-	-moz-transition: .5s ease-in-out;
-	-ms-transition: .5s ease-in-out;
-	-o-transition: .5s ease-in-out;
-}
-
-.menu .pic-1, 
-.menu .pic-2,
-.menu .pic-3 {
-    background-size: cover;
-    display: flex;
-    height: 20vh;
-}
-
-.menu .pic-1 {
-    background-image: url(y.jpg);
-}
-
-.menu .pic-2 {
-    background-image: url(u.jpg);
-}
-
-.menu .pic-3 {
-    background-image: url(yas.jpg);
-}
-
-.menu .pic-1 h1, 
-.menu .pic-2 h1,
-.menu .pic-3 h1 {
-    font-size: 2rem;
-    margin: auto;
-}
-
-.menu .txt {
-    height:  auto;
-    background-color: grey;
-    box-sizing: border-box;
-    padding: 2px;
-}
-
-.menu .txt p {
-    padding: 1em;
-    font-size: 1rem;
-}
-
-.fill {
-    width: 80vw;
-    margin: auto;
-    height: auto;
-    box-sizing: border-box;
-}
-
-.fill p {
-    font-size: 1rem;
-    text-align: center;
-    /* background-color: yellow; */
-}
-
-/* .fill p:hover {
-    color: blue;
-} */
-
-.parallax {
-	width: 100vw;
-	height: 100vh;
-	background-image: url(l.png);
-	background-size: cover;
-	background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-	box-sizing: border-box;
-    display: flex;
-}
-
-.king {
-	margin: auto;
-    background-color: yellow;
-    position: relative;
-    opacity: .7;
-}
-
-.king img {
-    width: 100px;
-}
-
-.king h1 {
-    position: absolute;
-    text-align: center;
-    font-size: 1rem;
-    color: white;
 }
 
 .content {
+    margin: 0 2em 0 2em;
     width: 100vw;
-    margin-top: 5em;
-}
-
-.kreator1 {
-    margin: auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .flwm {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content a {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    margin: 2rem auto;
     width: 80vw;
-    height: 40vw;
-    background-image: url(Desain\ tanpa\ judul\ \(1\).png);
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 1.5em;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 1.5em;
 }
 
-.kreator1 h1 {
+.flex1 {
+    flex: 2;
+    margin: 0 .5em 0 .5em;
+}
+
+.ini {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.flex2 {
+    flex: 2;
+    margin: 0 .5em 0 .5em;
+}
+
+.combine {
+    width: 95vw;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    flex: 2;
+    width: 70vw;
+    height: auto;
     margin: auto;
+    /* background-color: yellow; */
 }
 
-.kreator2 {
-    width: 60vw;
-    margin: auto;
+.img img {
+    width: 40vw;
 }
 
-.kreator2 p {
-    font-size: 1rem;
-    text-align: center;
+.isi {
+    flex: 2;
+    /* background-color: yellow; */
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        height: 90vh;
+.isi h1 {
+    font-size: 2em;
+}
+
+.isi p {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 650px) {
+    .flex {
         display: block;
-        /* border: 2px solid black; */
+        font-size: 1em;
     }
 
-    .container .pic {
-        width: 100vw;
-        height: 60vh;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
+    .flex1,
+    .flex2 {
+        margin: 1em;
     }
 
-    .container .txt {
-        width: 100vw;
-        height: 30vh;
-        /* margin: auto; */
-        /* background-color: yellow; */
+    .isi h1 {
+        font-size: 1.5em;
     }
 
-    /* .menu:hover {
-        translate: 0 -45px;
-        transform: scale(1.4, 1.7);
-        -webkit-transform: scale(1.4, 1.7);
-        -moz-transform: scale(1.4, 1.7);
-        -ms-transform: scale(1.4, 1.7);
-        -o-transform: scale(1.4, 1.7);
-    } */
-
-    .bag {
-        width: 80vw;
-        height: 90vh;
-        /* border: 2px solid black; */
-        box-sizing: border-box;
-        flex-wrap: wrap;
-        margin-bottom: 50px;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        /* position: relative; */
+    .isi p {
+        font-size: 1em;
     }
-
-    .menu {
-        margin-top: 1em;
-        /* background-color: yellow; */
-        /* width: 20vw; */
-        height: 24vh;
-        /* overflow: hidden; */
-    }
-
-    .menu .txt p {
-        font-size: .6rem;
-    }
-
-    /* .king img {
-        width: 30vw;
-    } */
 }
