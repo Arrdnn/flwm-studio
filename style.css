@@ -140,9 +140,17 @@ div {
 
     .combine {
         display: block;
+        margin: auto;
+        width: 90vw;
+    }
+
+    .img {
+        width: 90vw;
+        text-align: center;
+        /* background-color: yellow; */
     }
 
     .img img {
-        width: 70vw;
+        width: 90vw;
     }
 }
