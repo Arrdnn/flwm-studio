@@ -14,7 +14,7 @@ html, body, * {
     text-decoration: none;
     font-size: 4em;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 
 .button a:hover {
@@ -29,4 +29,10 @@ html, body, * {
 
 .open img {
     width: 95vw;
+}
+
+@media screen and (max-width: 650px) {
+    .button a {
+        font-size: 30px;
+    }
 }

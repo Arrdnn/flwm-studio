@@ -92,18 +92,6 @@ div {
     font-size: 1.5em;
 }
 
-.video {
-    width: 98vw;
-    height: auto;
-    margin: auto;
-    /* background-color: yellow; */
-}
-
-.video video {
-    width: 98vw;
-    margin: auto;
-}
-
 .combine {
     margin: 4em 0;
     width: 95vw;
@@ -173,6 +161,18 @@ div {
 
 .isi2 p {
     font-size: 1.5em;
+}
+
+.video {
+    width: 98vw;
+    height: auto;
+    margin: 4em auto;
+    /* background-color: yellow; */
+}
+
+.video video {
+    width: 98vw;
+    margin: auto;
 }
 
 .text {
