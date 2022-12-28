@@ -10,12 +10,15 @@ div {
 
 .navbar {
     margin: 4px auto;
-    width: 95vw;
+    width: auto;
     height: 10vh;
     display: flex;
     align-items: center;
-    /* background-color: aqua; */
+    background-color: white;
     box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .content {
@@ -118,6 +121,10 @@ div {
 }
 
 .compose {
+    background-color: black;
+}
+
+.compose2 {
     width: 85vw;
     height: auto;
     margin: 4em auto;
@@ -125,7 +132,7 @@ div {
     overflow-x: scroll;
 }
 
-.compose::-webkit-scrollbar {
+.compose2::-webkit-scrollbar {
     display: none;
 }
 
@@ -136,6 +143,17 @@ div {
 .over img {
     height: 90vh;
     margin: 0 1em;
+}
+
+.text {
+    width: 95vw;
+    margin: auto;
+}
+
+.text .flwm {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 @media screen and (max-width: 650px) {
@@ -199,8 +217,8 @@ div {
         margin: 1em 0;
     }
 
-    .compose {
-        width: 90vw;
+    .compose2 {
+        width: auto;
     }
 
     .over img {
