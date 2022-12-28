@@ -44,6 +44,10 @@ div {
     color: black;
 }
 
+.content a:hover {
+    text-decoration: underline;
+}
+
 .flex {
     margin: 2rem auto;
     width: 80vw;
@@ -86,6 +90,18 @@ div {
 
 .flex2 h1 {
     font-size: 1.5em;
+}
+
+.video {
+    width: 98vw;
+    height: auto;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.video video {
+    width: 98vw;
+    margin: auto;
 }
 
 .combine {
@@ -159,20 +175,10 @@ div {
     font-size: 1.5em;
 }
 
-.open {
-    width: 95vw;
-    margin: auto;
-    /* background-color: yellow; */
-}
-
-.open img {
-    width: 95vw;
-}
-
 .text {
     display: flex;
     width: 90vw;
-    height: 70vh;
+    height: 100vh;
     margin: 5em auto;
     /* background-color: black; */
     text-align: center;
