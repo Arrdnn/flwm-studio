@@ -127,7 +127,7 @@ div {
 .compose2 {
     width: 85vw;
     height: auto;
-    margin: 4em auto;
+    margin: 4em auto 1em auto;
     overflow-y: hidden;
     overflow-x: scroll;
 }
@@ -145,28 +145,67 @@ div {
     margin: 0 1em;
 }
 
+.isi2 {
+    width: 90vw;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.isi2 h1 {
+    font-size: 2em;
+}
+
+.isi2 p {
+    font-size: 1.5em;
+}
+
+.open {
+    width: 95vw;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.open img {
+    width: 95vw;
+}
+
 .text {
     display: flex;
     width: 90vw;
-    height: 100vh;
+    height: 70vh;
     margin: 5em auto;
-    /* background-color: yellow; */
+    /* background-color: black; */
     text-align: center;
 }
 
 .text .flwm,
 .text p {
     margin: auto;
+    /* color: white; */
 }
 
 .text .flwm {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    color: red;
 }
 
 .text p {
+    color: purple;
     font-weight: bold;
+}
+
+.absurd {
+    margin: auto;
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.absurd img {
+    width: 45vw;
 }
 
 @media screen and (max-width: 650px) {
@@ -236,5 +275,13 @@ div {
 
     .over img {
         height: 40vh;
+    }
+
+    .isi2 h1 {
+        font-size: 1.5em;
+    }
+
+    .isi2 p {
+        font-size: 1em;
     }
 }
