@@ -13,19 +13,47 @@ p {
 }
 
 .button {
+    margin: 0 2em 2em 0;
+    /* background-color: white; */
+    /*padding: 2em;
+    */text-align: center;
+    position: fixed;
+    width: 10vw;
+    /* height: 30vh; */
+    right: 0;
+    bottom: 0;
+    background-image: url(img/arrow.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80%;
+    -webkit-border-radius: 80%;
+    -moz-border-radius: 80%;
+    -ms-border-radius: 80%;
+    -o-border-radius: 80%;
+}
+
+.button a {
+    font-size: 4rem;
+    text-decoration: none;
+    color: black;
+    opacity: 0;
+}
+
+.tombol {
     margin: .5em 0 0 1.5em;
     top: 0;
     left: 0;
 }
 
-.button a {
+.tombol a {
     text-decoration: none;
     font-size: 40px;
     color: black;
     /* font-family: 'Times New Roman', Times, serif; */
 }
 
-.button a:hover {
+.tombol a:hover {
     text-decoration: underline;
 }
 
@@ -63,7 +91,7 @@ p {
         font-size: 1em;
     }
 
-    .button a {
+    .tombol a {
         font-size: 30px;
     }
 
