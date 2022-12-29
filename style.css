@@ -214,6 +214,12 @@ div {
     width: 45vw;
 }
 
+.copyright {
+    width: 90vw;
+    margin: 2em auto;
+    /* margin: 1em 0 0 1em; */
+}
+
 @media screen and (max-width: 650px) {
 
     .content {

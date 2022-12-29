@@ -5,14 +5,14 @@ html, body, * {
 }
 
 .button {
+    margin: .5em 0 0 1.5em;
     top: 0;
     left: 0;
 }
 
 .button a {
-    margin: .5em 0 0 .5em;
     text-decoration: none;
-    font-size: 4em;
+    font-size: 40px;
     color: black;
     /* font-family: 'Times New Roman', Times, serif; */
 }
@@ -29,6 +29,16 @@ html, body, * {
 
 .open img {
     width: 95vw;
+}
+
+.text {
+    width: 90vw;
+    /* margin: 3em 2em; */
+    margin: 3em auto;
+}
+
+.text p {
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 650px) {
