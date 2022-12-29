@@ -8,6 +8,14 @@ div {
     /* background-color: yellow; */
 }
 
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
 .navbar {
     margin: 4px auto;
     width: auto;
@@ -54,7 +62,7 @@ div {
     height: auto;
     display: flex;
     box-sizing: border-box;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 }
 
 .flex1 {
@@ -88,10 +96,6 @@ div {
     margin: 0 .5em 0 .5em;
 }
 
-.flex2 h1 {
-    font-size: 1.5em;
-}
-
 .combine {
     margin: 4em 0;
     width: 95vw;
@@ -114,14 +118,6 @@ div {
 .isi {
     flex: 2;
     /* background-color: yellow; */
-}
-
-.isi h1 {
-    font-size: 2em;
-}
-
-.isi p {
-    font-size: 1.5em;
 }
 
 .compose {
@@ -153,14 +149,6 @@ div {
     width: 90vw;
     margin: auto;
     box-sizing: border-box;
-}
-
-.isi2 h1 {
-    font-size: 2em;
-}
-
-.isi2 p {
-    font-size: 1.5em;
 }
 
 .video {
@@ -217,10 +205,17 @@ div {
 .copyright {
     width: 90vw;
     margin: 2em auto;
-    /* margin: 1em 0 0 1em; */
 }
 
 @media screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
 
     .content {
         margin: 0 1em 0 1em;
@@ -253,14 +248,6 @@ div {
         height: 3vh;
     }
 
-    .isi h1 {
-        font-size: 1.5em;
-    }
-
-    .isi p {
-        font-size: 1em;
-    }
-
     .combine {
         display: block;
         margin: auto;
@@ -287,13 +274,5 @@ div {
 
     .over img {
         height: 40vh;
-    }
-
-    .isi2 h1 {
-        font-size: 1.5em;
-    }
-
-    .isi2 p {
-        font-size: 1em;
     }
 }
